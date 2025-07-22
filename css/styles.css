@@ -49,23 +49,24 @@ a{
     color: #404bbf;
 }
 /*hero*/
-.section1{
+.section{
     background-color: #2e2f42;
 }
-.section1-title{
+.section-title{
     font-size: 56px;
     line-height: 1.08;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    line-height: 1.07;
 }
 .transition{
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    font-weight: 500;
     background-color: #4d5ae5;
     color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .transition:hover,
 .transition:focus{
@@ -78,28 +79,28 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.section2-text{
+.section-two-text{
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 /*team*/
-.section3{
+.section-three{
     background-color: #f4f4fd;
 }
-.section3-title{
+.section-three-title{
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
-.section3-item{
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
+.section-three-item{
     background-color: #fff;
 }
 .team-title{
@@ -117,12 +118,15 @@ a{
     color: #434455;
 }
 /*portfolio*/
-.section4-title{
+.section-four-title{
     font-size: 36px;
     line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 .functions-title{
     font-size: 20px;
@@ -140,7 +144,7 @@ a{
 .page-footer{
     background-color: #2e2f42;
 }
-.logo-part2{
+.logo-part-two{
     color: #f4f4fd;
 }
 .advice-text{
